@@ -1,9 +1,12 @@
-#include <iostream>
-#include "Livro.h"
+
+#include "Biblioteca.h"
 
 int main()
 {
-    std::cout << "Sistema de Biblioteca iniciado!" << std::endl;
+
+    Biblioteca minhaBiblioteca;
+
+    minhaBiblioteca.executar();
 
     return 0;
 }
